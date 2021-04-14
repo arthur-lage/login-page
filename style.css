@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(45deg, #383095, #3C1A4E);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container{
+    display: flex;
+    box-shadow: 0px 4px 52px rgba(0,0,0,0.66);
+    flex-direction: column;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+}
+
+.input-box{
+    font-size: 24px;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid black;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 5px;
+    margin: .5rem 0;
+    font-family: "Inter";
+}
+
+.input-box:focus{
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.55);
+}
+
+.login-container #login-title{
+    font-size: 48px;
+    position: relative;
+    margin-bottom: 2rem;
+    color: rgba(0,0,0,0.75);
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.login-container #login-title::after{
+    content: "";
+    width: 57px;
+    height: 11px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 20px;
+    left: 0;
+    background: linear-gradient(45deg, #383095, #3C1A4E);
+}
+
+.button{
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    font-family: "Inter";
+    font-size: 24px;
+    padding: 10px;
+    transition: .5s ease;
+    border: 0;
+    margin: 1.25rem 0;
+    border-radius: 5px;
+}
+
+.button.sign-in{
+    background: linear-gradient(45deg, #383095, #3C1A4E);
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.45);
+}
+
+.button.sign-in:hover{
+    transform: translateY(-3.5px);
+    background: linear-gradient(45deg, #3C1A4E, #383095);
+}
+
+.button.facebook-button{
+    background: #253571;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.45);
+    display: flex;
+    align-items: center;
+}
+
+.button.facebook-button img, .button.google-button img{
+    margin: 0 1rem;
+}
+
+.button.facebook-button:hover{
+    background: #212555;
+}
+
+.button.google-button{
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.45);
+    color: #282828;
+    display: flex;
+    align-items: center;
+}
+
+.button.google-button:hover{
+    background: #ced2ff;
+}
+
+#sign-up{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #0057ff;
+    transition: .25s ease;
+    font-family: "Inter";
+}
+
+#sign-up:hover{
+    color: #0e40a5;
+}

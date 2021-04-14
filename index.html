@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="login-container">
+                <h3 id="login-title">Login</h3>
+                <form action="">
+                    <div class="input-field">
+                        <input type="text" class="input-box" id="username" required autocomplete="off" name="username" placeholder="Enter your Username">
+                        <div class="line-division"></div>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="input-box" id="password" required name="password" placeholder="Enter your Password">
+                        <div class="line-division"></div>
+                    </div>
+                    <input type="submit" class="button sign-in" id="sign-in" value="Sign In">
+                </form>
+                <a id="sign-up" href="#">Don't have an account yet?</a>
+                <div class="social-media-buttons">
+                    <div class="sign-up-facebook">
+                        <button class="button facebook-button" href="#">
+                            <img src="images/facebook-logo.svg">
+                            Sign in with Facebook
+                        </button>
+                    </div>
+                    <div class="sign-up-google">
+                        <button class="button google-button" href="#">
+                            <img src="images/google-logo.svg">
+                            Sign in with Google
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
