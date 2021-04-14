@@ -34,11 +34,13 @@ body{
     box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
     border-radius: 5px;
     margin: .5rem 0;
+    position: relative;
     font-family: "Inter";
+    transition: .25s ease;
 }
 
 .input-box:focus{
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.55);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.66);
 }
 
 .login-container #login-title{
@@ -96,7 +98,7 @@ body{
 }
 
 .button.facebook-button:hover{
-    background: #212555;
+    background: #191c3d;
 }
 
 .button.google-button{
@@ -107,7 +109,7 @@ body{
 }
 
 .button.google-button:hover{
-    background: #ced2ff;
+    background: #b2b5d1;
 }
 
 #sign-up{
