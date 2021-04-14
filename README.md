@@ -1,8 +1,6 @@
 <h1 align="center">Login Page</h1>
 
-![App Image]
-
-<img src="./images/app-screen.png">
+<img src="./images/app-screen.png" alt="App Screenshot">
 
 # Used technologies
 
